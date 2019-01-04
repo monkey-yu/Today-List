@@ -39,4 +39,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
    - 首先安装scss. npm install node-sass --save-dev. 
    - 然后修改angular.json 中的css为scss.
    - 然后将把全局style.css文件改为style.scss。
-10. 创建localStorage service,使用localStorage 保存登录信息。然后跳转至下一页面。
+10. 创建localStorage service,使用localStorage 保存登录信息。然后跳转至下一页面main。
+11. 创建main组件，以及在该文件夹中创建module 和main-routing.module文件。
+   - 在app-routing文件中配置main路由，重定向到main-routing.module这里。
+   - 将main的路由配置在main-routing.module。
+   - 将MainRoutingModule 引入进MainModule 中。
+   - 将MainModule 引入进AppModule 中。
+12.  重新ng serve .服务正常启动，main页面完成。
