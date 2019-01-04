@@ -39,3 +39,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
    - 首先安装scss. npm install node-sass --save-dev. 
    - 然后修改angular.json 中的css为scss.
    - 然后将把全局style.css文件改为style.scss。
+10. 创建localStorage service,使用localStorage 保存登录信息。然后跳转至下一页面。
