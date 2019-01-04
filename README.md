@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## 启动服务过程
+## 启动服务及工作过程
 1. ng new Today-List (新建一个项目)
 2. cd Today-List
 3. ng add ng-zorro-antd   （安装ng-zorro ）
@@ -35,3 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 6. 添加app-routing-module.ts 文件，配置route ... 记得把该文件引入到app.module文件内，并import中加入.
 7. app.html 添加路由出口 <router-outlet></router-outlet>
 8. 重新ng serve .服务正常启动，第一个login页面完成。
+9. 修改css 文件为scss. 
+   - 首先安装scss. npm install node-sass --save-dev. 
+   - 然后修改angular.json 中的css为scss.
+   - 然后将把全局style.css文件改为style.scss。
