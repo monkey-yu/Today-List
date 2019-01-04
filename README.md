@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## 启动服务过程
+1. ng new Today-List (新建一个项目)
+2. cd Today-List
+3. ng add ng-zorro-antd   （安装ng-zorro ）
+4. ng serve (启动服务正常)
+5. 添加第一个组件login （可以使用 ng generate component login）
+6. 添加app-routing-module.ts 文件，配置route ... 记得把该文件引入到app.module文件内，并import中加入.
+7. app.html 添加路由出口 <router-outlet></router-outlet>
+8. 重新ng serve .服务正常启动，第一个login页面完成。
