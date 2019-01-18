@@ -12,6 +12,8 @@ import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { LoginComponent } from './pages/login/login.component';
 import { MainComponent } from './pages/main/main/main.component';
+import { LeftAsideComponent } from './pages/main/left-aside/left-aside.component';
+import { RightSectionComponent } from './pages/main/right-section/right-section.component';
 
 
 registerLocaleData(en);
@@ -20,7 +22,9 @@ registerLocaleData(en);
   declarations: [
     AppComponent,
     LoginComponent,
-    MainComponent
+    MainComponent,
+    LeftAsideComponent,
+    RightSectionComponent
   ],
   imports: [
     BrowserModule,
